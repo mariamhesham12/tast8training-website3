@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+   <!-- ///////////////////// start navbar ////////////////////////// -->
+   <nav class="navbar navbar-expand-lg navbar-light  sticky-top mynav">
+
+    <div class="container-fluid">
+    <img src="img/882244ebd594839e11dd1a21ea854aee.jpg" style="border-radius: 50%; width: 50px; height: 50px; margin: 0px 10px;" alt="">
+      <a class="navbar-brand pl-3" href="#" style="border-right:1px solid black ; padding-right: 10px; font-size: 30px;">Flora</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Courses
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">python</a></li>
+              <li><a class="dropdown-item" href="#">java</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">html</a></li>
+              <li><a class="dropdown-item" href="#">css</a></li>
+              <li><a class="dropdown-item" href="#">js</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button type="button" class="btn btn-outline-success" style="margin-left: 8px;" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Login</button>
+
+          
+        </form>
+
+        
+        <!-- <button type="button" class="btn btn-outline-success" style="margin-left: 8px;" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Login</button> -->
+
+          
+          
+      </div>
+    </div>
+  </nav>
+    <!-- ///////////////////// end navbar ////////////////////////// -->
+
+<!-- ////////////////////////// start carousel /////////////////////////// -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" style="background-color: rgb(76, 21, 76);" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" style="background-color: rgb(76, 21, 76);" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" style="background-color: rgb(76, 21, 76);" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/133_floral.png" class="d-block" style="width:100%; height: 100vh;" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/rm331-mynt-58.jpg" class="d-block" style="width:100%; height: 100vh;" alt="...">
+        
+      </div>
+      <div class="carousel-item">
+        <img src="img/7e11406e5f0a15eb0bb259b87b8009f7.jpg" class="d-block" style="width:100%; height: 100vh;" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" style="background-color: rgb(76, 21, 76);" aria-hidden="true"></span>
+      <span class="visually-hidden cc">Previous</span>
+    </button>
+    <button class="carousel-control-next cc" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" style="background-color: rgb(76, 21, 76);" aria-hidden="true"></span>
+      <span class="visually-hidden" style="background-color: rgb(76, 21, 76);">Next</span>
+    </button>
+  </div>
+<!-- ////////////////////////// end carousel //////////////////////////// -->
+
+    <!-- //////////////////// start welcome ///////////////////////////// -->
+   <div class="welcome pb-4">
+    <div class="card p-3" style="border-radius: 10px;">
+        <div class="card-body">
+          <h2 class="card-title">Welcome</h2>
+          <p class="card-text">Our florist will create for you a unique and special bouquet with the flowers of the day.</p>
+          <button type="button" class="btn btn-outline-success">learn more</button>
+        </div>
+      </div>
+   </div><!-- /welcome -->
+   <!-- //////////////////// end welcome ///////////////////////////// -->
+
+      <!-- ////////////////////// start programming language //////////////////// -->
+      <div class="programming  pb-5">
+        <h2 class="text-center mb-5">Frequently asked Questions</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                What is the most popular flower in the world?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               It is the rose. With over 400,000 flower plant species across the world, you might think it would be hard to pinpoint the most popular flower in the world, but it isn’t. Roses come in all shapes, sizes and colors, and combine a unique appearance with a beautiful fragrance.</div>
+            </div>
+          </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What is the most beautiful flower in the world?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This is a bit more subjective. Once again the rose stakes its claim to be the world’s most beautiful flower with its beautifully defined petals and rich array of colors, but perhaps the most stunning display of floral elegance can be found in Japan in the spring.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What is the rarest flower in the world?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The rarest flower in the world is the Middlemist Red, there are currently only two surviving examples in the world. One can be found at Treaty House in New Zealand, the other at the English stately home of Chiswick House and Gardens. The flower is so sought after that a clipping was taken to grace the gardens of a multi-million dollar real estate development in Saudi Arabia. Located in Riyadh the development is made up of a wealth of luxury amenities, but taking center stage is this rare flower.</div>
+              </div>
+            </div>
+          </div>
+      </div><!-- /programming -->
+    <!-- ////////////////////// end programming language //////////////////// -->
+
+    <!-- ///////////////////// start python ////////////////////////// -->
+    <div class="python pb-4">
+        <h2 class="text-center pb-3 mt-5">Python is very easy</h2>
+            <div class="card p-3" style="border-radius: 10px;">
+                <div class="card-body">
+                  <h4 class="card-title">try the code below from <a href="https://www.python.org/shell/" target="_blank" style="color: blueviolet;">here</a></h4>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="copy to clipboard">
+                    copy
+                  </button>
+                  <p class="card-text m-4">name = input(' enter your name: '); print(" Hello " + name)</p>
+                </div>
+              </div>
+    </div><!-- /python -->
+    <!-- //////////////////////// end python ///////////////////////// -->
+
+     <!-- ///////////////////// start java ////////////////////////// -->
+     <div class="python pb-4">
+        <h2 class="text-center p-3">java is very easy</h2>
+            <div class="card p-3" style="border-radius: 10px;">
+                <div class="card-body">
+                  <h4 class="card-title">try the code below from <a href="https://www.java.com/en/" target="_blank" style="color: blueviolet;">here</a></h4>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="copy to clipboard">
+                    copy
+                  </button>
+                   <p class="card-text m-4">System.out.println(" Hello World! ");</p>
+                </div>
+              </div>
+    </div><!-- /python -->
+    <!-- //////////////////////// end java ///////////////////////// -->
+
+     <!-- ///////////////////// start javascript ////////////////////////// -->
+     <div class="python pb-5">
+        <h2 class="text-center p-3">javascript is very easy</h2>
+            <div class="card p-3" style="border-radius: 10px;">
+                <div class="card-body">
+                  <h4 class="card-title">try the code below from <a href="https://www.w3schools.com/js/DEFAULT.asp" target="_blank" style="color: blueviolet;">here</a></h4>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="copy to clipboard">
+                    copy
+                  </button>
+                  <p class="card-text m-4">console.log(" Welcome to Programiz! ");</p>
+                </div>
+              </div>
+    </div><!-- /python -->
+    <!-- //////////////////////// end javascript ///////////////////////// -->
+
+
+    <!-- //////////////////////// start the first fixedimg //////////////////////// -->
+
+    <div class="fixedimg firstfixedimg">
+      <div class="overlay"></div>
+    </div>
+
+    <!-- //////////////////////// end the first fixedimg ////////////////////////// -->
+
+    <!-- ////////////////////// start good basic /////////////////////////////// -->
+    <div class="goodbasic pt-5 pb-5">
+        <h2 class="text-center">Our Bestselling Bouquets</h2>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+
+                <div class="card m-3 col-md-4" style="width: 18rem; border-radius: 10px;">
+                    <img src="img/709663a99149f9dd42dbc858027842ed.jpg"  height="320" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vibrant Sunset</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Read more &hearts;</a>
+                    </div><!-- /card-body -->
+                  </div><!-- /card -->
+
+    
+                  <div class="card m-3 col-md-4" style="width: 18rem;border-radius: 10px;">
+                    <img src="img/ae6267af50ecb8b794fd933a308bc9ed.jpg" height="320" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Elegant Beauty</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Read more &hearts;</a>
+                    </div><!-- /card-body -->
+                  </div><!-- /card -->
+    
+                  <div class="card m-3 col-md-4" style="width: 18rem; border-radius: 10px;">
+                    <img src="img/b5d3f3b3151e897969f619757e0c4f60.jpg" height="320" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Infinite Strength</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Read more &hearts;</a>
+                    </div><!-- /card-body -->
+                  </div><!-- /card -->
+    
+                  <div class="card m-3 col-md-4" style="width: 18rem; border-radius: 10px;">
+                    <img src="img/2856e0dc6c071c505fc19a983e587fb9.jpg" height="320" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Love</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Read more &hearts;</a>
+                    </div><!-- /card-body -->
+                  </div><!-- /card -->
+    
+                  <div class="card m-3 col-md-4" style="width: 18rem; border-radius: 10px;">
+                    <img src="img/42dfe25702248dd00b13d0b57cb82c77.jpg" height="320" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Waterfall Sunset</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Read more &hearts;</a>
+                    </div><!-- /card-body -->
+                  </div><!-- /card -->
+    
+                  <div class="card m-3 col-md-4" style="width: 18rem;border-radius: 10px;">
+                    <img src="img/a1171e6f99336178b3d170bc8fdb5af0.jpg" height="320" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Florist Choice</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Read more &hearts;</a>
+                    </div><!-- /card-body -->
+                  </div><!-- /card -->
+    
+                </div><!-- /row -->
+            </div><!-- /container fluid -->
+        </div><!-- /goodbasic -->
+    <!-- ////////////////////// end good basic ///////////////////////////////// -->
+
+     <!-- //////////////////////// start the second fixedimg //////////////////////// -->
+
+     <div class="fixedimg secondfixedimg">
+      <div class="overlay"></div>
+     </div>
+
+      <!-- //////////////////////// end the second fixedimg ////////////////////////// -->
+
+
+      <!-- ///////////////////// start thanks for /////////////////////////// -->
+     <div class="thanksfor pt-5 pb-5">
+        <h2 class="text-center">Thanks For</h2>
+        <div class="container-fluid">
+        <div class="row justify-content-center">
+            
+            <div class="card m-3 col-md-4" style="width: 18rem;">
+                <img src="img/ef22f687b73eaef85402eacee8d6afca.jpg" height="200" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Mariam Hesham</p>
+                </div><!-- /card-body -->
+              </div><!-- /card -->
+
+              <div class="card m-3 col-md-4" style="width: 18rem;">
+                <img src="img/9f97d9f537ef46b9bd26fb24bb5be85d.jpg" height="200" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Mariam Hesham</p>
+                </div><!-- /card-body -->
+              </div><!-- /card -->
+
+              <div class="card m-3 col-md-4" style="width: 18rem;">
+                <img src="img/42769e0e936b4b2a251ead43936cb8b3.jpg" height="200" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Mariam Hesham</p>
+                </div><!-- /card-body -->
+              </div><!-- /card -->
+
+
+            </div><!-- /row -->
+        </div><!-- /container fluid -->
+     </div><!-- /thanksfor -->
+      <!-- //////////////////// end thanks for ////////////////////////////// -->
+
+      <!-- ///////////////// start join us ///////////////////////////////// -->
+      <div class="joinus pt-5 pb-5">
+
+      <h2 class="text-center m-3">Join Us</h2>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+
+            <div class="card m-3" style="width: 18rem;">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="card-title mb-4">Subscribe Now</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><i class="fab fa-facebook-square" style="color:blue"></i></h6>
+                  <a href="#" class="card-link">Go to link</a>
+                </div><!-- /card body -->
+              </div><!-- /card -->
+
+              <div class="card m-3" style="width: 18rem;">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="card-title mb-4">Follow</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><i class="fab fa-instagram-square"  style="color:rgb(204, 0, 255)"></i></h6>
+                  <a href="#" class="card-link">Go to link</a>
+                </div><!-- /card body -->
+              </div><!-- /card -->
+
+              <div class="card m-3" style="width: 18rem;">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="card-title mb-4">Like the page</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-thumbs-up" style="color:rgb(4, 54, 68)"></i></h6>
+                  <a href="#" class="card-link">Go to link</a>
+                </div><!-- /card body -->
+              </div><!-- /card -->
+
+              <div class="card m-3" style="width: 18rem;">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="card-title mb-4">Watch Videos</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"><i class="fab fa-youtube" style="color:rgb(255, 0, 0)"></i></h6>
+                  <a href="#" class="card-link">Go to link</a>
+                </div><!-- /card body -->
+              </div><!-- /card -->
+
+        </div><!-- /row -->
+      </div><!-- /container -->
+
+    </div><!-- /joinus -->
+      <!-- ///////////////// end join us ///////////////////////////////// -->
+
+      <!-- /////////////////////////// start footer ////////////////////////////////// -->
+
+      <div class="footer pt-3">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <hr>
+                    <i class="fas fa-building" style="color: rgb(50, 4, 4);"></i>
+                    <span>Good Company</span>
+                    <hr>
+                    <div class="contact pb-2">
+                        <p>Tel : 000-000-000</p>
+                        <p>Address : EGYPT</p>
+                        <p>Fax : 000-000-000</p>
+                    </div> <!--/contact  -->
+                </div><!-- /col-md-4 -->
+
+                <div class="col-md-4">
+                    <hr>
+                    <i class="fas fa-link" style="color: rgb(8, 144, 69);"></i>
+                    <span>Important links</span>
+                    <hr>
+                    <div class="contact pb-2">
+                        <p>
+                        <a style="text-decoration: none; color: blueviolet;" href="">Visit Us</a></p>
+                        <p>
+                        <a style="text-decoration: none; color: blueviolet;" href="">Take a look</a></p>
+                        <p>
+                        <a style="text-decoration: none; color: blueviolet;" href="">Your Health is more important</a></p>
+                    </div><!-- /contact -->
+                </div><!-- /col-md-4 -->
+                <div class="col-md-4">
+                    <hr>
+                    <i class="fas fa-low-vision" style="color: rgb(26, 173, 173);"></i>
+                    <span>Vision</span>
+                    <hr>
+                    <div class="contact pb-2">
+                        <p>Serveices for all</p>
+                        <p>Provide best serveices</p>
+                        <p>you will be better than before</p>
+                    </div><!-- /contact -->
+                </div><!-- /col-md-4 -->
+            </div><!-- row -->
+
+            <hr>
+            <p class="text-center pt-1 final">Copyright © 2023 Mariam Hesham, Good Company. All rights</p>
+            <hr>
+
+        </div><!-- /container-fluid -->
+
+      </div><!-- /footer -->
+     
+      
+     
+     
+<!-- /////////////////////////////////// end footer /////////////////////////////// -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Email address</label>
+              <input type="email" class="form-control" id="recipient-name">
+              <p>We'll never share your email with anyone else.</p>
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Password</label>
+              <input type="email" class="form-control" id="message-text">
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked">Remember me</label><br>
+                <button type="button" class="btn btn-primary" style="margin-top: 15px; margin-left: -40px;">Login</button>
+              </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

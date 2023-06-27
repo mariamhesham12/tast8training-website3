@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+}
+.try1{
+    background-image: url(../img/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+.try2{
+    background-image: url(../img/image-photography.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
